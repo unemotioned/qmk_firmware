@@ -16,7 +16,12 @@
 
 #pragma once
 
-// NOTE: "TAPPING_TERM" must be same or longer then "QUICK_TAP_TERM" value
-#define QUICK_TAP_TERM 200
-#define TAPPING_TERM 200
+// NOTE: "QUICK_TAP_TERM" must be same or less than "TAPPING_TERM" value
+#define QUICK_TAP_TERM 125
+#define TAPPING_TERM 180
 #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
+
+#define COMBO_TERM 20
+
+// 0 ~ 255
+#define OLED_BRIGHTNESS 0
