@@ -17,7 +17,7 @@
 #pragma once
 
 // NOTE: "QUICK_TAP_TERM" must be same or less than "TAPPING_TERM" value
-#define QUICK_TAP_TERM 125
+#define QUICK_TAP_TERM 80
 #define TAPPING_TERM 180
 #define HOLD_ON_OTHER_KEY_PRESS_PER_KEY
 
